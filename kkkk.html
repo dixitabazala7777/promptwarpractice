@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IgnisPredict - AI Wildfire Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0e1117;
+            color: #ffffff;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #161b22;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #ff4b4b;
+            margin-top: 0;
+        }
+        .status-badge {
+            display: inline-block;
+            background-color: rgba(255, 75, 75, 0.2);
+            color: #ff4b4b;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        .metric-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .metric-card {
+            background: #21262d;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #30363d;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #58a6ff;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔥 IgnisPredict Dashboard</h1>
+        <div class="status-badge">GitHub Actions Deployment Active</div>
+        <p>Welcome to the AI/ML Hackathon prototype tracking center. If you are reading this, your automated deployment workflow successfully built and compiled the application assets!</p>
+        
+        <div class="metric-grid">
+            <div class="metric-card">
+                <div>Model Accuracy (R²)</div>
+                <div class="metric-value">0.942 Live</div>
+            </div>
+            <div class="metric-card">
+                <div>Active Geospatial Zones</div>
+                <div class="metric-value">5,000 Regions</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
