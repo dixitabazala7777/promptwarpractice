@@ -16,4 +16,4 @@ if [ "$TOTAL_SIZE" -ge "$MAX_SIZE" ]; then
     exit 1
 fi
 
-echo "✅ All constraints passed! Proceeding..."
+echo "✅ All constraints passed! Proceeding..."save
